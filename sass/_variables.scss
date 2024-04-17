@@ -28,6 +28,8 @@
 
     $box-shadow: 10px 10px 5px var($color-300-Opacity);
     $border-hr: 1px solid $color-200; 
+    $border-radius-10px: 10px;
+    $border: 1px solid $color-950;
 
     $gap-2rem: 2rem;
     $gap-3rem: 3rem;
@@ -43,7 +45,6 @@
     $width-image-profile: 50px;
     $width-figure-footer: 90px;
 
-    $border-radius-10px: 10px;
 
     $brightness-blur: brightness(0.35) blur(2px);
     $transform-scale-1: scale(110%);
