@@ -1,0 +1,44 @@
+body {
+    background-color: $color-50;
+    min-height: 100vh;
+    color: $color-950;
+    font-family: "KodeMono";
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit
+  }
+  
+  hr {
+    border: $border-hr;
+  }
+
+  figure {
+    overflow: hidden;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+.header,
+.header__nav,
+.header__flexbox,
+.footer,
+.misredes,
+.header__box, 
+.footer__box {
+  gap: $gap-2rem;
+  @include flex;
+}
+
+.header__figure {
+  width: $width-image-profile;
+  border-radius: 50%;
+}

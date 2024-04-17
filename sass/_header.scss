@@ -1,0 +1,36 @@
+.header {
+    padding: $padding-header;
+    background-color: $color-50;
+    box-shadow: 0 10px 10px $color-950-Low-Opacity;
+
+    z-index: 2;
+    position: fixed;
+    min-width: 100vw;
+    
+    
+    max-height: $max-height;
+    min-height: fit-content;
+
+    &__box {
+        width: 100%;
+        max-width: $max-width-header;
+        justify-content: space-between;
+        
+        .header__nav {
+            .header__p {
+                font-weight: 900;
+                text-transform: uppercase;
+
+                &:hover {
+                  cursor: pointer;
+                  color: $color-500;
+                }
+            }
+        }
+    }
+}
+
+.header__figure {
+    width: $width-image-profile;
+    border-radius: 50%;
+}

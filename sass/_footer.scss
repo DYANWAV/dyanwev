@@ -1,0 +1,33 @@
+.footer {
+    color: $color-50;
+    padding: $padding-footer;
+    background-color: $color-950;
+    min-width: 100vw;
+
+    &__box {
+      width: 100%;
+      max-width: $max-width-header;
+      justify-content: space-between;
+    }
+
+    &__figure {
+      width: $width-figure-footer;
+    }
+  }
+  
+.misredes__figure {
+  height: 100%;
+  padding: $padding-icons;
+}
+  
+.fa-footer {
+  color: $color-50;
+  font-size: $size-icons;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 300ms;
+
+  &:hover {
+    transform: $transform-scale2;
+  }
+}

@@ -1,0 +1,22 @@
+.article__button {
+    padding: $padding-button;
+    color: $color-50;
+    border-radius: $border-radius-button;
+    border: $border-button;
+    background-color: transparent;
+    transform: translateY(400%);
+
+    &:hover {
+        
+        padding-inline: $padding-button-hover;
+        cursor: pointer;
+        color: var(--100);
+        border: 1px solid transparent;
+        background-color: $spotify;
+      }
+    
+  }
+
+  .button-yt:hover {
+    background-color: $yt-brand-medium-red;
+  }
